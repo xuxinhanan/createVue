@@ -10,13 +10,7 @@ module.exports = {
     { value: '🔧工具', name: '工具:    开发工具变动(构建、脚手架工具等)' },
     { value: '⏪回滚', name: '回滚:    代码回退' }
   ],
-  scopes: [
-    { name: 'leetcode' },
-    { name: 'javascript' },
-    { name: 'typescript' },
-    { name: 'Vue' },
-    { name: 'node' }
-  ],
+  scopes: [{ name: 'init project' }],
   // it needs to match the value for field type. Eg.: 'fix'
   /*  scopeOverrides: {
       fix: [
