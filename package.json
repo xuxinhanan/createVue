@@ -1,9 +1,15 @@
 {
   "devDependencies": {
+    "@commitlint/config-conventional": "^17.0.3",
     "@vue/compiler-sfc": "^3.2.37",
     "babel-loader": "^8.2.5",
+    "commitizen": "^4.2.4",
+    "commitlint": "^17.0.3",
+    "commitlint-config-cz": "^0.13.3",
     "copy-webpack-plugin": "^11.0.0",
     "css-minimizer-webpack-plugin": "^4.0.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^6.9.0",
     "eslint": "^8.19.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
@@ -28,9 +34,15 @@
     "build": "webpack --config build/webpack.prod.js",
     "serve": "webpack serve --hot --config webpack/webpack.dev.js",
     "lint": "eslint src --ext .js --cache --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commit": "git-cz"
   },
   "dependencies": {
     "vue": "^3.2.36"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
   }
 }

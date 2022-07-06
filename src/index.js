@@ -12,5 +12,3 @@ function trainJedi(jediWarrion) {
 
 trainJedi(person)
 trainJedi({ name: 'Adeel', designation: 'padawan' })
-
-let a
