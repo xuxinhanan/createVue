@@ -15,4 +15,4 @@
 
 # webpack5 配置一览
 
-![](D:\vue项目\createVue\createVue\static\webpack5.png)
+![Image](static/webpack5.png)
