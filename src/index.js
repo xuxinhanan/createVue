@@ -1,6 +1,8 @@
+// ESlint 测试文件
+
 let person = {
   name: 'Yoda',
-  designation: 'Jedi Master '
+  designation: 'Jedi Master'
 }
 
 function trainJedi(jediWarrion) {
